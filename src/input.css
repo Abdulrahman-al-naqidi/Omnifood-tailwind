@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media (max-width: 75em) {
+    html {
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: 59em) {
+    html {
+      font-size: 80%;
+    }
+  }
+
+  *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.5rem rgba(230, 125, 34, 0.5);
+  }
+
+  strong {
+    font-weight: 500;
+  }
+}
